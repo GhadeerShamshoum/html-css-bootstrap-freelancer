@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
 
@@ -34,7 +33,7 @@ body{
 .star::after{
     content: '';
     display: inline-block;
-    width: 15%;
+    width:20%;
     height: 4px;
     line-height: 4px;
     background-color: white;
@@ -47,7 +46,7 @@ body{
 .star-container-portfolio div::after{
     content: '';
     display: inline-block;
-    width: 15%;
+    width: 20%;
     height: 4px;
     line-height: 4px;
     background-color: black;
@@ -72,15 +71,11 @@ body{
 
 }
 
-.rounded-circle{
-    border: 1px solid white;
-    width: 2rem;
-}
+
 .social-icon-box ul li{
     display: inline-block;
-    
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     text-align: center;
     border: 1px solid white;
     border-radius: 100%;
@@ -88,7 +83,12 @@ body{
 }
 
 .social-icon-box ul li i{
-    line-height: 50px;
+    line-height: 40px;
+}
+
+.text-footer-big{
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 
