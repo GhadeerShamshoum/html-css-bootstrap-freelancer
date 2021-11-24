@@ -76,9 +76,21 @@ body{
     border: 1px solid white;
     width: 2rem;
 }
-.ms_icons{
-    font-size: 1.5rem;
+.social-icon-box ul li{
+    display: inline-block;
+    
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    
 }
+
+.social-icon-box ul li i{
+    line-height: 50px;
+}
+
 
 
 
