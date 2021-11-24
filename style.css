@@ -1,11 +1,11 @@
 
 .title{
-    height: 300px;
+    height: 100%;
 }
 
 .title-photo{
 
-    height: 200px;
+    height: 100%;
 
 }
 
@@ -70,5 +70,12 @@
     right: -15%;
     transform: translate(-50%);
 }
+
+.portfolio{
+    object-fit: cover;
+    width: 100%;
+}
+
+
 
 
